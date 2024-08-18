@@ -73,7 +73,7 @@ function Services() {
 							<div className="text md-mb80">
 								<p>
 									We envision a vibrant community where financial stability and
-									success are within everyone's reach, driven by integrity,
+									success are within everyone&apos;s reach, driven by integrity,
 									transparency, and member-centric service.
 								</p>
 							</div>
