@@ -38,7 +38,9 @@ function About() {
 								</h4> */}
 								<h4 className="mb-30">
 									At Bright Sacco{" "}
-									<span className="fw-200">we're dedicated to lighting</span>{" "}
+									<span className="fw-200">
+										we&apos;re dedicated to lighting
+									</span>{" "}
 									Established with a vision to empower individuals and
 									businesses through collective financial strength.
 								</h4>
