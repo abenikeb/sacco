@@ -8,7 +8,8 @@ import Marq2 from "@/components/common/Marq2";
 import Navbar from "@/components/common/Navbar";
 import Script from "next/script";
 import Clients from "@/components/common/Clients";
-import Services from "@/components/home-digital-agency/Services";
+import Services2 from "@/components/home-digital-agency/Services";
+import Services from "@/components/home-personal/Services";
 import Intro2 from "@/components/home-digital-agency/Intro2";
 import Testimonials from "@/components/home-digital-agency/Testimonials";
 import Blog from "@/components/home-digital-agency/Blog";
@@ -32,7 +33,7 @@ export const metadata = {
 export default function Home() {
 	return (
 		<body>
-			<LoadingScreen />
+			{/* <LoadingScreen /> */}
 			<Cursor />
 			<ProgressScroll />
 			<Lines />
@@ -41,10 +42,33 @@ export default function Home() {
 				<div id="smooth-content">
 					<main className="main-bg o-hidden">
 						<Header />
+						{/* <Services2 /> */}
+						<div className="container service-conatiner">
+							<div className="sec-head mb-80">
+								<div className="row">
+									<div className="col-lg-4">
+										<h6 className="title-bord mb-30 secondary-color">
+											Our Services
+										</h6>
+									</div>
+									<div className="col-lg-8">
+										<div className="text secondary-color">
+											<h4>
+												Bright Sacco provides a comprehensive range of financial
+												products and services designed to support the diverse
+												needs of our members. From secure savings accounts to
+												flexible loan options, our offerings are tailored to
+												help individuals and businesses.
+											</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 						<Services />
 						<Intro2 />
 						{/* <Numbers /> */}
-						<Testimonials />
+						{/* <Testimonials /> */}
 						{/* <Clients />
 						<Blog /> */}
 						<Marq2 />

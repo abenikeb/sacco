@@ -33,13 +33,13 @@ export const metadata = {
 export default function Home() {
 	return (
 		<body>
-			<LoadingScreen />
+			{/* <LoadingScreen /> */}
 			<Cursor />
-			<ProgressScroll />
+			{/* <ProgressScroll /> */}
 			<Lines />
 			<Navbar />
-			<div id="smooth-wrapper">
-				<div id="smooth-content">
+			<div>
+				<div>
 					<main className="main-bg o-hidden">
 						<Header />
 						<Intro />

@@ -221,6 +221,53 @@ figure {
 	background: #ffffff !important;
 }
 
+.main-container {
+	width: 100vw;
+	min-height: 100vh;
+	position: fixed;
+	display: flex;
+	justify-content: end;
+	/* padding: 120px 24px 160px 24px; */
+	pointer-events: none;
+}
+
+.main-bg:after {
+	content: "";
+	background-image: url("./../../assets/imgs/grid.svg");
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0.15;
+	filter: invert(1);
+}
+
+.gradient {
+	height: fit-content;
+	z-index: 3;
+	width: 100%;
+	max-width: 640px;
+	background-image: radial-gradient(
+			at 27% 37%,
+			rgb(203, 205, 208) 0px,
+			transparent 0%
+		),
+		radial-gradient(at 97% 21%, rgb(249, 248, 245) 0px, transparent 50%),
+		radial-gradient(at 52% 99%, #59b6f8e5 0px, transparent 50%),
+		radial-gradient(at 10% 29%, #6aa3e0 0px, transparent 50%),
+		radial-gradient(at 97% 96%, rgb(166, 184, 236) 0px, transparent 50%),
+		radial-gradient(at 33% 50%, rgb(244, 200, 4) 0px, transparent 50%),
+		radial-gradient(at 79% 53%, rgb(248, 243, 226) 0px, transparent 50%);
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	filter: blur(100px) saturate(150%);
+	top: 80px;
+	opacity: 0.15;
+}
+
 .sub-bg {
 	background: #2a3955 !important;
 }
@@ -2145,7 +2192,12 @@ img.left {
 }
 
 .fw-200 {
-	font-weight: 200 !important;
+	font-weight: 500 !important;
+	color: #dbb108;
+}
+
+.main-colors {
+	color: #dbb108 !important;
 }
 
 .fw-300 {
@@ -5389,11 +5441,15 @@ footer.clean-footer.crev .circle-blur-small {
 	left: 10vw;
 	width: 80vw;
 	height: 80vw;
-	background: -webkit-radial-gradient(circle, #ff3700 0%, transparent 66%);
-	background: -o-radial-gradient(circle, #ff3700 0%, transparent 66%);
-	background: radial-gradient(circle, #ff3700 0%, transparent 66%);
+	background: -webkit-radial-gradient(circle, #dbb108 0%, transparent 66%);
+	background: -o-radial-gradient(circle, #fff1b9 0%, transparent 66%);
+	background: radial-gradient(circle, #ffe47a 0%, transparent 66%);
 	opacity: 0.3;
 	z-index: -1;
+}
+
+.service-conatiner {
+	margin-top: 100px;
 }
 
 .numbers-crev .item h3 {

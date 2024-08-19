@@ -20,7 +20,7 @@ function Footer() {
 								<a href="#0">bright@bright.com</a>
 							</h6>
 							<a href="#0" className="underline">
-								<span className="fz-22 main-color">+251 (911) 242 45</span>
+								<span className="fz-22 main-color">+251 (911) 242 459</span>
 							</a>
 						</div>
 					</div>
@@ -29,13 +29,16 @@ function Footer() {
 							<h6 className="sub-title mb-30">Useful Links</h6>
 							<ul className="rest fz-14 opacity-7">
 								<li className="mb-15">
-									<a href="/page-about">About</a>
+									<a href="/page-about">About us</a>
 								</li>
 								<li className="mb-15">
-									<a href="/page-services">Services</a>
+									<a href="/page-services">Services Offered</a>
 								</li>
 								<li className="mb-15">
-									<a href="/blog-grid-sidebar">Blog</a>
+									<a href="/">Testimonies</a>
+								</li>
+								<li className="mb-15">
+									<a href="/page-FAQ">FAQs</a>
 								</li>
 								<li>
 									<a href="/page-contact">Contact</a>
@@ -83,16 +86,16 @@ function Footer() {
 							© 2024 Bright Sacco is Proudly Powered by{" "}
 							<span className="underline main-color">
 								<a href="https://themeforest.net/user/UiCamp" target="_blank">
-									Gzuf
+									Gizuf Digital
 								</a>
 							</span>
 						</p>
 					</div>
 				</div>
 			</div>
-			<div className="circle-blur">
+			{/* <div className="circle-blur">
 				<img src="/assets/imgs/patterns/blur1.png" alt="" />
-			</div>
+			</div> */}
 		</footer>
 	);
 }

@@ -5,12 +5,14 @@ import loadBackgroudImages from "@/common/loadBackgroudImages";
 function Header() {
 	useLayoutEffect(() => {
 		const tl = gsap.timeline();
-		tl.fromTo(".header", { y: 200 }, { y: 0 }, "+=2.5");
+
+		// Set animations to be near-instantaneous
+		tl.fromTo(".header", { y: 200 }, { y: 0, duration: 0.5 }); // Duration set to 0.1 seconds
 		tl.fromTo(
 			".header .container",
 			{ opacity: 0, translateY: 40 },
-			{ opacity: 1, translateY: 0 },
-			"-=0"
+			{ opacity: 1, translateY: 0, duration: 0.1 }, // Duration set to 0.1 seconds
+			"-=0.1" // Overlap the animations
 		);
 
 		return () => tl.kill();
@@ -22,13 +24,13 @@ function Header() {
 		<div
 			className="header page-header bg-img section-padding valign"
 			data-background="/assets/imgs/background/bg4_.jpg"
-			data-overlay-dark="5">
+			data-overlay-dark="1">
 			<div className="container pt-80">
 				<div className="row">
 					<div className="col-12">
 						<div className="text-center">
 							<h1 className="text-u ls1 fz-80">
-								Our <span className="fw-200">Services</span>
+								Our <span className="fw-200 main-colors">Services</span>
 							</h1>
 						</div>
 					</div>

@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
+import Link from "next/link";
 
 function Navbar() {
 	function handleScroll() {
@@ -42,9 +43,9 @@ function Navbar() {
 	return (
 		<nav className="navbar navbar-expand-lg bord blur">
 			<div className="container o-hidden">
-				<a className="logo icon-img-100" href="#">
+				<Link className="logo icon-img-100" href="#">
 					<img src="/assets/imgs/logo-light-fill.png" alt="logo" />
-				</a>
+				</Link>
 
 				<button
 					className="navbar-toggler"
@@ -65,19 +66,19 @@ function Navbar() {
 					id="navbarSupportedContent">
 					<ul className="navbar-nav">
 						<li className="nav-item">
-							<a className="nav-link" href="/">
+							<Link className="nav-link" href="/">
 								<span className="rolling-text">Home</span>
-							</a>
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="/page-about">
+							<Link className="nav-link" href="/page-about">
 								<span className="rolling-text">About Us</span>
-							</a>
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="/page-services">
+							<Link className="nav-link" href="/page-services">
 								<span className="rolling-text">Services Offered</span>
-							</a>
+							</Link>
 						</li>
 						{/* <li className="nav-item">
 							<a className="nav-link" href="/page-team">
@@ -85,14 +86,14 @@ function Navbar() {
 							</a>
 						</li> */}
 						<li className="nav-item">
-							<a className="nav-link" href="/page-team">
+							<Link className="nav-link" href="/page-testimonials">
 								<span className="rolling-text">Testimonies</span>
-							</a>
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="/page-FAQ">
+							<Link className="nav-link" href="/page-FAQ">
 								<span className="rolling-text">FAQs</span>
-							</a>
+							</Link>
 						</li>
 
 						{/* <li
@@ -153,9 +154,9 @@ function Navbar() {
 						</li> */}
 
 						<li className="nav-item">
-							<a className="nav-link" href="/page-contact">
+							<Link className="nav-link" href="/page-contact">
 								<span className="rolling-text">Contact Us</span>
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>

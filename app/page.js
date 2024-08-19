@@ -22,8 +22,8 @@ import Portfolio from "@/components/home-personal/Portfolio";
 export const metadata = {
 	title: "Bright Sacco",
 	icons: {
-		icon: "/assets/imgs/logo-light.png",
-		shortcut: "/assets/imgs/logo-light.png",
+		icon: "/assets/imgs/favicon.ico",
+		shortcut: "/assets/imgs/favicon.ico",
 		other: generateStylesheetObject([
 			"/assets/css/plugins.css",
 			"/assets/css/style.css",
@@ -44,6 +44,7 @@ export default function Home() {
 			<div id="smooth-wrapper" className="bg-white">
 				<div id="smooth-content">
 					<main className="main-bg o-hidden bg-white mt-96">
+						<div className="gradient" />
 						<Header />
 						<Marq />
 						<About />
