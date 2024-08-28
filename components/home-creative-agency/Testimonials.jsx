@@ -24,9 +24,9 @@ function Testimonials() {
 	}, []);
 	return (
 		<section
-			className="testimonials-minim section-padding bg-img overlay-center"
-			data-background="/assets/imgs/background/b1.jpg"
-			data-overlay-dark="9">
+			className="testimonials-minim section-padding bg-img "
+			data-background="/assets/imgs/background/bg6.jpg"
+			data-overlay-dark="0">
 			<div className="container ontop">
 				<div className="row">
 					<div className="col-lg-4">

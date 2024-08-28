@@ -48,13 +48,13 @@ function Footer() {
 					</div>
 					<div className="col-lg-3">
 						<div className="column subscribe-minimal">
-							<h6 className="sub-title mb-30">Newsletter</h6>
-							<div className="form-group mb-40">
+							{/* <h6 className="sub-title mb-30">Newsletter</h6> */}
+							{/* <div className="form-group mb-40">
 								<input type="text" name="subscrib" placeholder="Your Email" />
 								<button>
 									<span className="ti-location-arrow"></span>
 								</button>
-							</div>
+							</div> */}
 							<ul className="rest social-icon d-flex align-items-center">
 								<li className="hover-this cursor-pointer">
 									<a href="#0" className="hover-anim">
@@ -85,7 +85,7 @@ function Footer() {
 						<p className="fz-14">
 							© 2024 Bright Sacco is Proudly Powered by{" "}
 							<span className="underline main-color">
-								<a href="https://themeforest.net/user/UiCamp" target="_blank">
+								<a href="https://www.Gizuf.com" target="_blank">
 									Gizuf Digital
 								</a>
 							</span>

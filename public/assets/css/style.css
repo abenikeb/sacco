@@ -219,29 +219,29 @@ figure {
 
 .main-bg {
 	background: #ffffff !important;
+	z-index: 9;
 }
 
-.main-container {
+/* .main-container {
 	width: 100vw;
 	min-height: 100vh;
 	position: fixed;
 	display: flex;
 	justify-content: end;
-	/* padding: 120px 24px 160px 24px; */
 	pointer-events: none;
-}
+} */
 
-.main-bg:after {
+/* .main-bg::before {
 	content: "";
 	background-image: url("./../../assets/imgs/grid.svg");
-	z-index: 1;
+	z-index: -1;
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	top: 0;
 	opacity: 0.15;
 	filter: invert(1);
-}
+} */
 
 .gradient {
 	height: fit-content;
@@ -269,11 +269,11 @@ figure {
 }
 
 .sub-bg {
-	background: #2a3955 !important;
+	background: #2a4a73 !important;
 }
 
 .sub-bg2 {
-	background: #2a3955 !important;
+	background: #2a4a73 !important;
 }
 
 .p-color {
@@ -2072,7 +2072,7 @@ img.left {
 }
 
 .icon-img-100 {
-	width: 100px;
+	width: 150px;
 }
 
 .icon-img-120 {
@@ -4828,7 +4828,7 @@ body.loaded {
 footer.clean-footer.crev {
 	position: relative;
 	padding: 50px 20px;
-	background-color: #0a183d;
+	background-color: #2a4a73;
 	color: #fff;
 	overflow: hidden;
 }
@@ -4866,7 +4866,7 @@ footer .pattern {
 	right: -50px;
 	width: 300px;
 	height: 300px;
-	background: radial-gradient(circle, #ffb800 30%, transparent 80%);
+	background: radial-gradient(circle, #eebe2d 30%, transparent 80%);
 	opacity: 0.3;
 	transform: rotate(45deg);
 	z-index: 1;
@@ -4878,7 +4878,7 @@ footer .pattern-small {
 	left: -30px;
 	width: 100px;
 	height: 100px;
-	background: radial-gradient(circle, #ffb800 40%, transparent 80%);
+	background: radial-gradient(circle, #eebe2d 40%, transparent 80%);
 	opacity: 0.5;
 	transform: rotate(25deg);
 	z-index: 1;
@@ -4905,7 +4905,7 @@ footer .subscribe-minimal input:focus {
 
 /* Subscribe Button */
 footer .subscribe-minimal button {
-	color: #ffb800;
+	color: #eebe2d;
 	background-color: #fff;
 	border-radius: 50px;
 	padding: 12px 20px;
@@ -4921,8 +4921,8 @@ footer .subscribe-minimal .social-icon a {
 	height: 50px;
 	line-height: 50px;
 	border-radius: 50%;
-	background-color: #ffb800;
-	color: #0a183d;
+	background-color: #eebe2d;
+	color: #2a4a73;
 	font-size: 18px;
 	margin: 0 5px;
 	display: inline-block;
@@ -5271,9 +5271,9 @@ footer.clean-footer.crev .circle-blur-small {
 	left: -30vw;
 	width: 80vw;
 	height: 80vw;
-	background: -webkit-radial-gradient(circle, #ffcc01 0%, transparent 66%);
-	background: -o-radial-gradient(circle, #ffcc01 0%, transparent 66%);
-	background: radial-gradient(circle, #ffcc01 0%, transparent 66%);
+	background: -webkit-radial-gradient(circle, #eebe2d 0%, transparent 66%);
+	background: -o-radial-gradient(circle, #eebe2d 0%, transparent 66%);
+	background: radial-gradient(circle, #eebe2d 0%, transparent 66%);
 	opacity: 0.5;
 	z-index: 2;
 }
@@ -5307,6 +5307,31 @@ footer.clean-footer.crev .circle-blur-small {
 
 .header-personal .info .item:last-of-type:after {
 	display: none;
+}
+
+.page-headers {
+	background-position: center;
+}
+
+.page-headers:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: -2px;
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(transparent) 90%,
+		to(#f1e29f)10%
+	);
+	/* background: -webkit-linear-gradient(transparent, #f1e29f); */
+	/* background: -o-linear-gradient(transparent, #f1e29f); */
+	/* background: radial-gradient(circle, transparent, #f1e29f, #2A4A73);
+ */
+
 }
 
 .page-header {

@@ -22,7 +22,7 @@ function Header() {
 		<div
 			className="header header-personal valign bg-img"
 			data-background="/assets/imgs/header/full/p113.png"
-			data-overlay-dark="2">
+			data-overlay-dark="1">
 			<div className="container ontop">
 				<div className="row">
 					<div className="col-lg-7">
