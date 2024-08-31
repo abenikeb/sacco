@@ -27,7 +27,7 @@ function Header() {
 				<div className="row">
 					<div className="col-lg-7">
 						<div className="caption">
-							<h6 className="mb-15">
+							<h6 className="mb-5">
 								<span className="icon-img-30 mr-10">
 									<img src="/assets/imgs/header/lamp.png" alt="" />
 								</span>{" "}
@@ -38,20 +38,20 @@ function Header() {
 								የወደፊት {""}
 								<span className="main-color3">የፋይናንሺያል</span>
 							</h1>
-							<h3>ጊዜዎን ብሩህ ያድርጉ</h3>
+							<h3>ህልሞን ብሩህ ያድርጉ</h3>
 							<div className="row">
 								<div className="col-lg-9">
 									<div className="text mt-30">
 										<p>
-											ብሩህ ሳኮን ይቀላቀሉ - ህልሞችዎ ዕድል የሚያገኙበት። ለስኬትዎ የተሰጠ የታመኑ የገንዘብ
-											መፍትሄዎችን እና ማህበረሰብን ያግኙ.
+											ብራይት ኃ/የተወሰነ የገንዘብ ቁጠባ ይቀላቀሉ - ህልሞትን ከዕድል የሚያገኙበት። ለስኬትዎ
+											የተሰጠ የታመኑ የገንዘብ መፍትሄዎችን እና ማህበረሰብን ያግኙ.
 										</p>
 									</div>
 									<div className="d-flex align-items-center mt-60">
 										<a
 											href="/page-contact"
 											className="butn butn-md butn-bord radius-30 secondary-color">
-											<span className="text">ዛሬ ይጀምሩ</span>
+											<span className="text">ዛሬውኑ ይጀምሩ</span>
 										</a>
 										<div className="icon-img-60 ml-20">
 											<img

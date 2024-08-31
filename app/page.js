@@ -54,7 +54,7 @@ export default function Home() {
 							<div className="main-bg d-flex align-items-center">
 								<h6 className="fz-14 fw-400 secondary-color">
 									በሀገር አቀፍ ዙሪያ <span className="fw-400"> ከ20+ በላይ ኩባንያዎች</span>
-									ታማኝንትን አግኝተናል።
+									አብረን በመስራት እንገናኘለን።
 								</h6>
 							</div>
 						</div>
