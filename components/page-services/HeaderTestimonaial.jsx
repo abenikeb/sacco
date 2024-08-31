@@ -30,8 +30,8 @@ function Header() {
 					<div className="col-12">
 						<div className="text-center">
 							<h1 className="text-u ls1 fz-80">
-								What People {""}
-								<span className="fw-200 main-colors">Say?</span>
+								ደንበኞቻችን ስለእኛ {""}
+								<span className="fw-200 main-colors">ምን ይላሉ?</span>
 							</h1>
 						</div>
 					</div>

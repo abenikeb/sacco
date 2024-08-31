@@ -1,16 +1,49 @@
 import React from "react";
-import data from "@/data/team-t";
+// import data from "@/data/team-t";
 function Team() {
+	let data = [
+		{
+			img: "/assets/imgs/team/5.jpg",
+			name: "ጌትነት በቀለ",
+			subName: "ዋና ሥራ አስፈፃሚ",
+		},
+		{
+			img: "/assets/imgs/team/t2.jpg",
+			name: "Petros Alemayehu",
+			subName: "ዋና የፋይናንስ ኦፊሰር",
+		},
+		{
+			img: "/assets/imgs/team/t3.jpg",
+			name: "ሳሙኤል ተስፋዬ",
+			subName: "የግብይት ዳይሬክተር",
+		},
+		{
+			img: "/assets/imgs/team/t4.jpg",
+			name: "ሳባ ታደሰ",
+			subName: "ኦፕሬሽንስ አስተዳዳሪ",
+		},
+		{
+			img: "/assets/imgs/team/t2.jpg",
+			name: "ገነት ሀይሉ",
+			subName: "የሰው ሀብት ሥራ አስኪያጅ",
+		},
+		{
+			img: "/assets/imgs/team/t3.jpg",
+			name: "አህመድ ካሊድ",
+			subName: "የሰው ሀብት ሥራ አስኪያጅ",
+		},
+	];
+
 	return (
 		<section className="team-crev2 section-padding pb-90">
 			<div className="container">
 				<div className="sec-head mb-80">
 					<div className="d-flex align-items-center">
 						<div>
-							<span className="sub-title main-color mb-5">Our Team</span>
+							<span className="sub-title main-color mb-5">የቡድን አባሎቶቻችን</span>
 							<h3 className="fw-600 fz-50 text-u d-rotate wow">
 								<span className="rotate-text secondary-color">
-									Meet our <span className="fw-200">financial experts.</span>
+									የፋይናንስ ባለሙያዎቻችንን <span className="fw-200">ያግኙ.</span>
 								</span>
 							</h3>
 						</div>
@@ -18,7 +51,7 @@ function Team() {
 							<a
 								href="/page-team"
 								className="butn butn-sm secondary-color butn-bord radius-30">
-								<span>Join to us</span>
+								<span>ከእኛ ጋር ይቀላቀሉ</span>
 							</a>
 							<span className="icon ti-arrow-top-right"></span>
 						</div>
@@ -63,7 +96,7 @@ function Team() {
 						<div className="item-bord d-flex align-items-center justify-content-center mb-50 secondary-color">
 							<div>
 								<h5>
-									Become <br /> Our Member
+									የእኛ <br /> አባል ይሁኑ
 								</h5>
 								<a href="#0" className="mt-30">
 									<span className="ti-arrow-top-right fz-30"></span>

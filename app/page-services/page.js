@@ -48,17 +48,18 @@ export default function Home() {
 								<div className="row">
 									<div className="col-lg-4">
 										<h6 className="title-bord mb-30 secondary-color">
-											Our Services
+											ተግባራቶቻችን
 										</h6>
 									</div>
 									<div className="col-lg-8">
 										<div className="text secondary-color">
 											<h4>
-												Bright Sacco provides a comprehensive range of financial
-												products and services designed to support the diverse
-												needs of our members. From secure savings accounts to
-												flexible loan options, our offerings are tailored to
-												help individuals and businesses.
+												 ከአባላት የመመዝገቢያ ክፍያ 1000.00 ፣ 1 ዕጣ 100.00 ብር የሆነ ለአዲስ
+												አባል ዝቅተኛ 15 ዕጣ መሸጥ እና አባት በየወሩ ቢያንስ አንድ ዕጣ እንዲገዙ ማድረግ 
+												፣ የተለያዩ ቁጠባ ፣አረቦን፣የአገልግሎት ገቢ ፣ ልዩ ልዩ ገቢዎችን እና በቸክ
+												የሚንቀሳቀስ ተንቀሳቃሽ ሂሳብ መሰብሰብ ፤3.5፡1 የቁጠባ እና ዕጣ ምጥጥን መስራት፣
+												ለአባላት የተለያዩ አይነቶች ብድር መስጠት እና ከነወለዱ መሰብሰብ፣ ስልጠና መስጠት 
+												የሸሪዓ ህግን መሰረት ያደረገ ወለድ አልባ የፋይናንስ አገልግሎት መስጠት
 											</h4>
 										</div>
 									</div>
@@ -71,7 +72,7 @@ export default function Home() {
 						{/* <Testimonials /> */}
 						{/* <Clients />
 						<Blog /> */}
-						<Marq2 />
+						{/* <Marq2 /> */}
 					</main>
 					<Footer />
 				</div>

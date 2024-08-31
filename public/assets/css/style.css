@@ -143,7 +143,7 @@ h2 {
 }
 
 h3 {
-	font-size: 40px;
+	font-size: 30px;
 }
 
 h4 {
@@ -1420,6 +1420,11 @@ figure {
 	display: flex;
 }
 
+.text-bright {
+	font-size: x-large;
+	font-weight: 500;
+}
+
 .main-marq .box .item {
 	padding: 0 30px;
 }
@@ -1825,6 +1830,11 @@ img.left {
 	padding-bottom: 140px;
 }
 
+.section-paddings {
+	padding-top: 70px;
+	padding-bottom: 140px;
+}
+
 .section-ptb {
 	padding: 80px 0;
 }
@@ -2072,7 +2082,7 @@ img.left {
 }
 
 .icon-img-100 {
-	width: 150px;
+	width: 130px;
 }
 
 .icon-img-120 {
@@ -3786,6 +3796,12 @@ body.loaded {
 	letter-spacing: 2px;
 }
 
+.sub-titles {
+	font-size: 44px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
 .title-bord {
 	font-size: 14px;
 	text-transform: uppercase;
@@ -3815,6 +3831,27 @@ body.loaded {
 
 .sec-bottom {
 	position: relative;
+	width: 80%;
+	margin: auto;
+}
+
+.fixed-height-card {
+	height: 550px; /* Set your desired fixed height */
+	overflow: hidden;
+}
+
+.fixed-height-card .truncate-text {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 5; /* Adjust the number of lines */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+}
+
+.fixed-height-card .truncate-text p {
+	margin: 0;
+	padding: 0;
 }
 
 .sec-bottom:after {
@@ -3823,7 +3860,7 @@ body.loaded {
 	top: 50%;
 	left: 0;
 	width: 100%;
-	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-top: 1px solid rgba(63, 61, 61, 0.264);
 }
 
 .sec-bottom .d-flex {
@@ -5325,13 +5362,12 @@ footer.clean-footer.crev .circle-blur-small {
 		left top,
 		left bottom,
 		from(transparent) 90%,
-		to(#f1e29f)10%
+		to(#f1e29f) 10%
 	);
 	/* background: -webkit-linear-gradient(transparent, #f1e29f); */
 	/* background: -o-linear-gradient(transparent, #f1e29f); */
 	/* background: radial-gradient(circle, transparent, #f1e29f, #2A4A73);
  */
-
 }
 
 .page-header {
@@ -8365,7 +8401,7 @@ footer.clean-footer.crev .circle-blur-small {
 		margin-bottom: 0 !important;
 	}
 	.section-padding {
-		padding-top: 100px;
+		padding-top: 10px;
 		padding-bottom: 100px;
 	}
 	.sec-head h3.fz-50 {

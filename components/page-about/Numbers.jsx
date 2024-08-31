@@ -10,29 +10,25 @@ function Numbers() {
 							<div className="o-hidden">
 								<h3 className="stroke">100%</h3>
 							</div>
-							<h6 className="p-color sub-title secondary-color">
-								Clients Satisfaction
-							</h6>
+							<h6 className="p-color sub-title secondary-color">የደንበኞች እርካታ</h6>
 						</div>
 					</div>
 					<div className="col-lg-4 col-md-6">
 						<div className="item text-center md-mb50">
 							<div className="o-hidden">
-								<h3 className="stroke">6700</h3>
+								<h3 className="stroke">67</h3>
 							</div>
 							<h6 className="p-color sub-title secondary-color">
-								Projects Completed
+								ፕሮጀክቶች ተጠናቀዋል
 							</h6>
 						</div>
 					</div>
 					<div className="col-lg-4 col-md-6">
 						<div className="item text-center">
 							<div className="o-hidden">
-								<h3 className="stroke">34 +</h3>
+								<h3 className="stroke">17 +</h3>
 							</div>
-							<h6 className="p-color sub-title secondary-color">
-								Awards Achievement
-							</h6>
+							<h6 className="p-color sub-title secondary-color">የሽልማት ስኬት</h6>
 						</div>
 					</div>
 				</div>

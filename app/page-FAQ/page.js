@@ -13,6 +13,7 @@ import Testimonials from "@/components/home-creative-agency/Testimonials";
 import Header from "@/components/page-FAQ/Header";
 import FAQS from "@/components/page-FAQ/FAQS";
 import Numbers from "@/components/page-FAQ/Numbers";
+import Marq from "@/components/home-personal/Marq";
 
 export const metadata = {
 	title: "Brght Sacco",
@@ -42,10 +43,10 @@ export default function Home() {
 						<Header />
 						<FAQS />
 						{/* <Numbers /> */}
-						<Testimonials />
+						{/* <Testimonials /> */}
 						{/* <Clients /> */}
 						{/* <Blog /> */}
-						<Marq2 />
+						<Marq />
 					</main>
 					<Footer />
 				</div>

@@ -30,7 +30,7 @@ function Header() {
 					<div className="col-12">
 						<div className="text-center">
 							<h1 className="text-u ls1 fz-80">
-								Get In <span className="fw-200 main-colors"> Touch</span>
+								ማገኘት <span className="fw-200 main-colors"> ይፈልጉናል</span>
 							</h1>
 						</div>
 					</div>

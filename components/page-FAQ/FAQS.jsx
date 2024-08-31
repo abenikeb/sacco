@@ -20,23 +20,24 @@ function FAQS() {
 						<div>
 							<div className="sec-head mb-50">
 								<h6 className="sub-title main-color mb-15">
-									Welcome to our FAQ section!
+									ወደ ተደጋጋሚ ጥያቄዎች ክፍላችን እንኳን በደህና መጡ!
 								</h6>
 								<h3 className="secondary-color">
-									You’ll find answers of the <br /> Most common queries we
-									receive.
+									ከደንበኞች የሚነሱ የተለመዱ ጥያቄዎች
+									<br /> መልሶችን ያገኛሉ.
 								</h3>
 							</div>
 							<div className="accordion bord secondary-color">
 								<div className="item active wow fadeInUp" data-wow-delay=".1s">
 									<div onClick={openAccordion} className="title">
-										<h6>Designing Content With AI Power</h6>
+										<h6>የአባልነት መስፈርት ሙሉ እና ዕጩ አባል ለመሆን ምን ያስፈልጋል </h6>
 										<span className="ico ti-plus"></span>
 									</div>
 									<div className="accordion-info">
 										<p className="">
-											Taken possession of my entire soul, like these sweet
-											mornings of spring which i enjoy with my whole.
+											 እድሜው ከ18 ዓመት እና ከዚያ በላይ ሆኖ በአዲስ አበባ የሚኖር፣ መተዳደሪያ ደንቡን፣
+											ውስጠ ደንቡን፣ ኅብረት ሥራ ማህበሩ ያወጣቸው የተለያዩ መመሪያዎች፣ የጠቅላላ ጉባኤ
+											ውሳኔዎችን የተቀበለና ግዴታውን ለመወጣት ፈቃደኛ የሆነ፣
 										</p>
 									</div>
 								</div>
@@ -45,43 +46,43 @@ function FAQS() {
 									className="item wow fadeInUp secondary-color"
 									data-wow-delay=".3s">
 									<div onClick={openAccordion} className="title">
-										<h6>Talented, Professional & Expert Team</h6>
+										<h6>ስለብድር አሰጣጥ ምን ያስፈልጋል </h6>
 										<span className="ico ti-plus"></span>
 									</div>
 									<div className="accordion-info">
 										<p className="">
-											Taken possession of my entire soul, like these sweet
-											mornings of spring which i enjoy with my whole.
+											 ሰው ለመርዳት ፅኑ ፍላጎት ያለው ግለሰብም ሆነ ድርጅት  የፍላጎት ቁጠባ ለመቆጠብ
+											ፈቃደኛ የሆነ
 										</p>
 									</div>
 								</div>
 
 								<div
 									className="item wow fadeInUp secondary-color"
-									data-wow-delay=".5s">
+									data-wow-delay=".3s">
 									<div onClick={openAccordion} className="title">
-										<h6>We Build and Activate Brands</h6>
+										<h6>ስለብድር አሰጣጥ ምን ያስፈልጋል </h6>
 										<span className="ico ti-plus"></span>
 									</div>
 									<div className="accordion-info">
 										<p className="">
-											Taken possession of my entire soul, like these sweet
-											mornings of spring which i enjoy with my whole.
+											 ሰው ለመርዳት ፅኑ ፍላጎት ያለው ግለሰብም ሆነ ድርጅት  የፍላጎት ቁጠባ ለመቆጠብ
+											ፈቃደኛ የሆነ
 										</p>
 									</div>
 								</div>
 
 								<div
 									className="item wow fadeInUp secondary-color"
-									data-wow-delay=".7s">
+									data-wow-delay=".3s">
 									<div onClick={openAccordion} className="title">
-										<h6>We Build and Activate Brands</h6>
+										<h6>ተባባሪ አባል ለመሆን ለመሆን ምን ያስፈልጋል </h6>
 										<span className="ico ti-plus"></span>
 									</div>
 									<div className="accordion-info">
 										<p className="">
-											Taken possession of my entire soul, like these sweet
-											mornings of spring which i enjoy with my whole.
+											 ሰው ለመርዳት ፅኑ ፍላጎት ያለው ግለሰብም ሆነ ድርጅት  የፍላጎት ቁጠባ ለመቆጠብ
+											ፈቃደኛ የሆነ
 										</p>
 									</div>
 								</div>

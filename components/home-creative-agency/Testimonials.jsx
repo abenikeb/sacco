@@ -31,10 +31,10 @@ function Testimonials() {
 				<div className="row">
 					<div className="col-lg-4">
 						<div className="sec-head">
-							<h6 className="sub-title main-color mb-15">Testimonials</h6>
+							<h6 className="sub-title main-color mb-15">ደንበኞቻችን ስለእኛ</h6>
 							<h3 className="fw-600 d-rotate wow">
 								<span className="rotate-text">
-									What People <span className="fw-200">Say?</span>
+									ምን <span className="fw-200">ይላሉ?</span>
 								</span>
 							</h3>
 						</div>
@@ -70,10 +70,9 @@ function Testimonials() {
 														opacity="0.322"></path>
 												</svg>
 												<p className="fz-30">
-													I have been hiring people in this space for a number
-													of years and I have never seen this level of
-													professionalism. It really feels like you are working
-													with a team that can get the job done.
+													በዚህ ቦታ ውስጥ ሰዎችን ለብዙ አመታት እየቀጠርኩ ነው የሰራሁት እና ይህን
+													የባለሙያነት ደረጃ ከዚህ ደርጃ አላውቅም። ስራውን ሊያጠናቅቅ ከሚችል ቡድን ጋር
+													እየሰሩ እንደሆነ በእውነት ይሰማዎታል።
 												</p>
 											</div>
 											<div className="info d-flex align-items-center pt-40 mt-40 bord-thin-top">
@@ -83,9 +82,9 @@ function Testimonials() {
 													</div>
 												</div>
 												<div className="ml-20">
-													<h5>Kebede Beckley</h5>
+													<h5>ሃይሉ ቤክሌይ</h5>
 													<span className="sub-title main-color">
-														CEO of MIT
+														NIB PLC መስራች እና ዋና ስራ አስፈፃሚ
 													</span>
 												</div>
 											</div>
@@ -112,10 +111,9 @@ function Testimonials() {
 														opacity="0.322"></path>
 												</svg>
 												<p className="fz-30">
-													I have been hiring people in this space for a number
-													of years and I have never seen this level of
-													professionalism. It really feels like you are working
-													with a team that can get the job done.
+													በዚህ ቦታ ውስጥ ሰዎችን ለብዙ አመታት እየቀጠርኩ ነው የሰራሁት እና ይህን
+													የባለሙያነት ደረጃ ከዚህ ደርጃ አላውቅም። ስራውን ሊያጠናቅቅ ከሚችል ቡድን ጋር
+													እየሰሩ እንደሆነ በእውነት ይሰማዎታል።
 												</p>
 											</div>
 											<div className="info d-flex align-items-center pt-40 mt-40 bord-thin-top">
@@ -125,9 +123,9 @@ function Testimonials() {
 													</div>
 												</div>
 												<div className="ml-20">
-													<h5>Abebe Haylu</h5>
+													<h5>ሃይሉ ቤክሌይ</h5>
 													<span className="sub-title main-color">
-														Founder & CEO at EBC
+														NIB PLC መስራች እና ዋና ስራ አስፈፃሚ
 													</span>
 												</div>
 											</div>

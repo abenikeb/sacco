@@ -2,14 +2,12 @@ import React from "react";
 
 function Marq() {
 	const items = [
-		"Loans",
-		"Insurance Services",
-		"Investment Opportunities",
-		"Deposit and Withdrawal Services",
-		"Member Benefits",
-		"Savings Accounts",
-		"Seo Mackting",
-		"Product Delivery",
+		"ብድሮች",
+		"የኢንሹራንስ አገልግሎቶች",
+		"የኢንቨስትመንት እድሎች",
+		"ተቀማጭ እና ማውጣት አገልግሎቶች",
+		"የአባላት ጥቅሞች",
+		"የቁጠባ ሂሳቦች",
 	];
 	return (
 		<section className="marq">

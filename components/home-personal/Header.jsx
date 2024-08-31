@@ -31,28 +31,27 @@ function Header() {
 								<span className="icon-img-30 mr-10">
 									<img src="/assets/imgs/header/lamp.png" alt="" />
 								</span>{" "}
-								Brighten Your
+								በብራይት
 							</h6>
 
 							<h1 className="fw-700 mb-10">
-								Financial {""}
-								<span className="main-color3">Future</span>
+								የወደፊት {""}
+								<span className="main-color3">የፋይናንሺያል</span>
 							</h1>
-							<h3>with Bright Sacco</h3>
+							<h3>ጊዜዎን ብሩህ ያድርጉ</h3>
 							<div className="row">
 								<div className="col-lg-9">
 									<div className="text mt-30">
 										<p>
-											Join Bright Sacco – where your dreams meet opportunity.
-											Experience trusted financial solutions and a community
-											dedicated to your success.
+											ብሩህ ሳኮን ይቀላቀሉ - ህልሞችዎ ዕድል የሚያገኙበት። ለስኬትዎ የተሰጠ የታመኑ የገንዘብ
+											መፍትሄዎችን እና ማህበረሰብን ያግኙ.
 										</p>
 									</div>
 									<div className="d-flex align-items-center mt-60">
 										<a
 											href="/page-contact"
 											className="butn butn-md butn-bord radius-30 secondary-color">
-											<span className="text">Get Started Today</span>
+											<span className="text">ዛሬ ይጀምሩ</span>
 										</a>
 										<div className="icon-img-60 ml-20">
 											<img
@@ -68,16 +67,16 @@ function Header() {
 				</div>
 				<div className="info d-flex align-items-center justify-content-end mt-100">
 					<div className="item">
-						<h6 className="sub-title mb-10">Email :</h6>
+						<h6 className="sub-title mb-10">ኢሜይል :</h6>
 						<span className="p-color">brightsacco.Info@gmail.com</span>
 					</div>
 					<div className="item">
-						<h6 className="sub-title mb-10">Phone :</h6>
-						<span className="p-color">+251 (343) 24 45</span>
+						<h6 className="sub-title mb-10">ስልክ :</h6>
+						<span className="p-color">+251 (913) 243 452</span>
 					</div>
 					<div className="item">
-						<h6 className="sub-title mb-10">Address :</h6>
-						<span className="p-color">Gerji Mebrat Hayil, Birmingham #301</span>
+						<h6 className="sub-title mb-10">አድራሻ :</h6>
+						<span className="p-color">ገርጂ መብራት ሃይል በርሚንግሃም #301</span>
 					</div>
 				</div>
 			</div>

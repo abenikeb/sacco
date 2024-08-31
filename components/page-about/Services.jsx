@@ -7,10 +7,10 @@ function Services() {
 				<div className="sec-head mb-80">
 					<div className="d-flex align-items-center">
 						<div>
-							<span className="sub-title main-color mb-5">Overview</span>
+							{/* <span className="sub-title main-color mb-5">አጠቃላይ እይታ</span> */}
 							<h3 className="fw-600 fz-50 text-u d-rotate wow">
 								<span className="rotate-text">
-									Featured <span className="fw-200">Us.</span>
+									ተልዕኳችን እና <span className="fw-200">ርዕያችን</span>
 								</span>
 							</h3>
 						</div>
@@ -18,7 +18,7 @@ function Services() {
 							<a
 								href="/page-services"
 								className="butn butn-sm butn-bord radius-30">
-								<span>View All</span>
+								<span>ሁሉንም ይመልከቱ</span>
 							</a>
 							<span className="icon ti-arrow-top-right"></span>
 						</div>
@@ -30,9 +30,10 @@ function Services() {
 							<div>
 								<span className="num">01</span>
 								<div>
-									<span className="sub-title main-color mb-10">Mission</span>
+									<span className="sub-title main-color mb-10">ተልዕኮ</span>
 									<h2>
-										Empower <span className="fw-200">our members</span>
+										ተደራሽ እና ቀልጣፋ{" "}
+										<span className="fw-200">የፋይናስ አገልግሎት መስጠት</span>
 									</h2>
 								</div>
 							</div>
@@ -40,9 +41,10 @@ function Services() {
 						<div className="col-lg-4">
 							<div className="text md-mb80">
 								<p>
-									At Bright Sacco, our mission is to empower our members by
-									providing innovative and accessible financial solutions that
-									foster personal and collective growth.
+									በሰለጠነ እና በስነምግባር በታነፀ የሰው ሃይል እና በዘመናዊ ቴክኖሎጂ በመታገዝ ለህብረተሰቡ
+									በፋይናንስ አጠቃቀም ተከታታይ ስልጠና በመስጠት ዘላቂነት ያለው ሁሉን አቀፍ የፋይናንስ ተቋም
+									በመገንባት ምቹ፣ ተደራሽ እና ቀልጣፋ የፋይናስ አገልግሎት በመስጠት የአባላትን ፍላጎት ማሟላት
+									ነው፡፡
 								</p>
 							</div>
 						</div>
@@ -62,20 +64,16 @@ function Services() {
 							<div>
 								<span className="num">02</span>
 								<div>
-									<span className="sub-title main-color mb-10">Vision</span>
+									<span className="sub-title main-color mb-10">ርዕያችን</span>
 									<h2>
-										Envision <span className="fw-200">a vibrant community</span>
+										መካከለኛ ገቢ ያላቸው <span className="fw-200">ማየት</span>
 									</h2>
 								</div>
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="text md-mb80">
-								<p>
-									We envision a vibrant community where financial stability and
-									success are within everyone&apos;s reach, driven by integrity,
-									transparency, and member-centric service.
-								</p>
+								<p>በ2030 ዓ.ም ሁሉም አባላት መካከለኛ ገቢ ያላቸው እና ስራ ፈጣሪ ሁነው ማየት፡፡</p>
 							</div>
 						</div>
 						<div className="col-lg-4">
@@ -94,9 +92,9 @@ function Services() {
 							<div>
 								<span className="num">03</span>
 								<div>
-									<span className="sub-title main-color mb-10">History</span>
+									<span className="sub-title main-color mb-10">ዓላማዎቻችን</span>
 									<h2>
-										Founded / <span className="fw-200">in 2010</span>
+										የፋይናንስ / <span className="fw-200">ትምህርትና ስልጠና በመስጠት</span>
 									</h2>
 								</div>
 							</div>
@@ -104,11 +102,11 @@ function Services() {
 						<div className="col-lg-4">
 							<div className="text md-mb80">
 								<p>
-									Founded in 2010EC, Bright Sacco began with a simple goal: to
-									create a supportive financial environment for individuals and
-									families. Over the years, we&apos;ve grown into a trusted
-									cooperative known for our commitment to excellence and
-									community development.
+									ለህብረተሰቡ የፋይናንስ ትምህርትና ስልጠና በመስጠት የፋይናንስ አጠቃቀም ንቃተ ህሊና በማሻሻል
+									አባላትን በስፋት ማፍራት፣  የአባላትን ፍላጎት መሰረት ያደረገ የተለያዩ የቁጠባ አገልግሎቶች
+									በማስፋፋት ቁጠባን በስፋት ማሰባሰብ፣  የአባላትን እና ደንበኞችን ፍላጎት መሰረት ያደረገ
+									የተለያዩ የብድር አገልግሎቶችን በማስፋፋት የብድር አገልግሎትን በብዛት፣ በጥራት እና በተመጣጣኝ
+									ዋጋ ለአባላት በማቅረብ የኢንቨስትመንት አቅም ለማሳደግ፣
 								</p>
 							</div>
 						</div>

@@ -12,7 +12,7 @@ import Clients from "@/components/common/Clients";
 
 import Blog from "@/components/home-digital-agency/Blog";
 
-import Testimonials from "@/components/home-modern-studio/Testimonials";
+import Testimonials from "@/components/home-personal/Testimonials";
 import Marq from "@/components/home-personal/Marq";
 import About from "@/components/home-personal/About";
 import Services from "@/components/home-personal/Services";
@@ -48,13 +48,22 @@ export default function Home() {
 						<Header />
 						<Marq />
 						<About />
+
 						<Services />
+						<div className="sec-bottom">
+							<div className="main-bg d-flex align-items-center">
+								<h6 className="fz-14 fw-400 secondary-color">
+									በሀገር አቀፍ ዙሪያ <span className="fw-400"> ከ20+ በላይ ኩባንያዎች</span>
+									ታማኝንትን አግኝተናል።
+								</h6>
+							</div>
+						</div>
 						<Portfolio />
 						{/* <Skills /> */}
 						<Testimonials />
 						{/* <Clients /> */}
 						{/* <Blog /> */}
-						<Marq2 />
+						{/* <Marq2 /> */}
 					</main>
 					<Footer />
 				</div>

@@ -10,23 +10,13 @@ function About() {
 							<div className="img">
 								<img src="/assets/imgs/header/p2222.png" alt="" />
 							</div>
-							{/* <span className="icon">
-								<img src="/assets/imgs/resume/icon1.png" alt="" />
-							</span>
-							<span className="icon">
-								<img src="/assets/imgs/resume/icon2.png" alt="" />
-							</span>
-							<span className="icon">
-								<img src="/assets/imgs/resume/icon3.png" alt="" />
-							</span>
-							<span className="icon">
-								<img src="/assets/imgs/resume/icon4.png" alt="" />
-							</span> */}
 						</div>
 					</div>
 					<div className="col-lg-7 valign">
 						<div className="cont">
-							<h6 className="sub-title main-color mb-30">About Us</h6>
+							<h6 className="sub-titles main-color mb-30">
+								ስለ <span className="secondary-color">እኛ</span>{" "}
+							</h6>
 							<div className="text secondary-color">
 								{/* <h4 className="mb-30">
 									I&apos;m{" "}
@@ -36,23 +26,19 @@ function About() {
 									from Sydney, Australia, working in web development and print
 									media.
 								</h4> */}
-								<h4 className="mb-30">
-									At Bright Sacco{" "}
-									<span className="fw-200">
-										we&apos;re dedicated to lighting
-									</span>{" "}
-									Established with a vision to empower individuals and
-									businesses through collective financial strength.
+								<h4 className="text-bright mb-30">
+									ብራይት <span className="fw-200">ኃ/የተወሰነ የገንዘብ ቁጠባ እና ብድር</span>{" "}
+									መሰረታዊ ኅብረት ስራ ማኅበር በአባላት በሙሉ ፍላጎት እና ፈቃደኝነት የኅብረት ስራ ማኅበሩን
+									ለማደራጀት በወጣው አዋጅ ቁጥር <span className="fw-200">985/2009</span>{" "}
+									መሰረት የተመሰረተ እና ለአባላት የቁጠባ፣የብድር፣አነስተኛ ኢንሹራንስ አገለግሎት እንዲሁም የተለያዩ
+									ስልጠናዎች ለአባላት እዲሰጥ ታስቦ የተቋቋመ ማኅበረሰብ አቀፍ ኅብረት ስራ ማኅበር ነው ::
 								</h4>
 								<p>
-									we offer a range of tailored services designed to meet your
-									unique needs. Our mission is to provide reliable savings
-									solutions, accessible loans, and valuable financial advice
-									while fostering a supportive community. With a commitment to
-									transparency and integrity, we ensure that every member&apos;s
-									journey with us is marked by trust and growth. Join Bright
-									Sacco today and experience a brighter, more secure financial
-									future.
+									ልዩ ፍላጎቶችዎን ለማሟላት የተነደፉ ልዩ ልዩ አገልግሎቶችን እናቀርባለን። ተልእኳችን ደጋፊ
+									ማህበረሰቡን በማሳደግ አስተማማኝ የቁጠባ መፍትሄዎችን፣ ተደራሽ ብድሮችን እና ጠቃሚ የፋይናንስ
+									ምክሮችን መስጠት ነው። ለግልጽነት እና ለታማኝነት ቁርጠኝነት ከያዝን እያንዳንዱ አባል ከእኛ ጋር
+									የሚያደርገው ጉዞ እምነት እና እድገት የሚታይበት መሆኑን እናረጋግጣለን። ዛሬውኑ Bright
+									Saccoን ይቀላቀሉ እና ብሩህ፣ ደህንነቱ የተጠበቀ የፋይናንስ የወደፊት ጊዜን ያግኙ።
 								</p>
 								<div className="numbers mt-50">
 									<div className="row lg-marg">
@@ -60,9 +46,7 @@ function About() {
 											<div className="item bord-thin-top bord-thin-right pt-30 d-flex align-items-end mt-20">
 												<div>
 													<h3 className="fw-300 mb-10">100%</h3>
-													<h6 className="p-color sub-title">
-														Clients Satisfaction
-													</h6>
+													<h6 className="p-color sub-title">የደንበኞች እርካታ</h6>
 												</div>
 												<div className="ml-auto">
 													<div className="icon-img-40">
@@ -75,9 +59,7 @@ function About() {
 											<div className="item bord-thin-top bord-thin-right pt-30 d-flex align-items-end mt-20">
 												<div>
 													<h3 className="fw-300 mb-10">100+</h3>
-													<h6 className="p-color sub-title">
-														Projects Completed
-													</h6>
+													<h6 className="p-color sub-title">ፕሮጀክቶች ተጠናቀዋል</h6>
 												</div>
 												<div className="ml-auto">
 													<div className="icon-img-40">

@@ -47,15 +47,15 @@ function Portfolio() {
 		};
 	}, []);
 	return (
-		<section className="work-card section-padding pb-0">
+		<section className="work-card section-paddings pb-0">
 			<div className="container">
 				<div className="sec-head mb-80">
 					<div className="d-flex align-items-center">
 						<div>
-							<span className="sub-title main-color mb-5">Our Profile</span>
+							<span className="sub-title main-color mb-5">ተመራጭ የሚያደርጉን</span>
 							<h3 className="fw-600 fz-50 text-u d-rotate wow">
 								<span className="rotate-text secondary-color">
-									Selected <span className="fw-200">Works.</span>
+									ዋና ዋና <span className="fw-200">ተግባራቶቻችን</span>
 								</span>
 							</h3>
 						</div>
@@ -63,7 +63,7 @@ function Portfolio() {
 							<a
 								href="/portfolio-grid"
 								className="butn butn-sm butn-bord radius-30 secondary-color">
-								<span>View All</span>
+								<span>ሁሉንም ይመልከቱ</span>
 							</a>
 							<span className="icon ti-arrow-top-right"></span>
 						</div>
@@ -77,24 +77,23 @@ function Portfolio() {
 									<div>
 										<div className="mb-15">
 											<a href="/portfolio-grid" className="tag">
-												Community
+												ወለድ
 											</a>
 											<a href="/portfolio-grid" className="tag">
-												Development
+												ቁጠባ
 											</a>
 										</div>
-										<h4>Community Development Projects</h4>
+										<h4>ወለድ የማይታሰብበት ቁጠባ</h4>
 									</div>
 									<div>
 										<p>
-											We have successfully funded and supported numerous
-											community initiatives, including infrastructure
-											development and educational programs, enhancing the
-											quality of life in our member communities.
+											ወለድ አልባ ቁጠባ ማለት ከእምነት ጋር በተያያዘ ወይም በሌላ ምክንያት (ገንዘባቸውን
+											በአስተማማኝ ቦታ እንዲቀመጥላቸው በሚፈልጉ ወይም በሌላ ሁኔታ) ደንበኞች ያለምንም የወለድ
+											ክፍያ በፋይናንስ ተቋማት የሚያስቀምጡት ወይም የሚቆጥቡት የቁጠባ ዓይነት ነው ፡፡
 										</p>
 										<a href="/project-details" className="underline mt-15">
 											<span className="text main-color sub-title">
-												View Details <i className="ti-arrow-top-right"></i>
+												ዝርዝሮችን ይመልከቱ <i className="ti-arrow-top-right"></i>
 											</span>
 										</a>
 									</div>
@@ -114,22 +113,57 @@ function Portfolio() {
 									<div>
 										<div className="mb-15">
 											<a href="/portfolio-grid" className="tag">
-												Affordable
+												የንግድ
 											</a>
 											<a href="/portfolio-grid" className="tag">
-												Housing
+												ብድር
 											</a>
 										</div>
-										<h4>Affordable Housing Loans</h4>
+										<h4>የንግድ ብድር</h4>
 									</div>
 									<div>
 										<p>
-											Our tailored housing loan products have enabled many
-											families to achieve homeownership, with flexible terms
+											 ለከተማ ግብርና ስራ የሚሰጥ ብድር  ለአነስተኛ ንግድ ስራ የሚሰጥ ብድር፣ 
+											ለአገልግሎት ስራ የሚሰጥ ብድር፣
 										</p>
 										<a href="/project-details" className="underline mt-15">
 											<span className="text main-color sub-title">
-												View Details <i className="ti-arrow-top-right"></i>
+												ዝርዝሮችን ይመልከቱ <i className="ti-arrow-top-right"></i>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-7">
+								<div className="img">
+									<img src="/assets/imgs/works/1/3.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="card-item sub-bg">
+						<div className="row">
+							<div className="col-lg-5">
+								<div className="cont">
+									<div>
+										<div className="mb-15">
+											<a href="/portfolio-grid" className="tag">
+												 የመኖሪያ ቤት
+											</a>
+											<a href="/portfolio-grid" className="tag">
+												 የኮንደሚኒየም ግንባታ ማስጨረሻ
+											</a>
+										</div>
+										<h4>የቤት ግዥ፣ መስሪያ እና ማደሻ ብድር</h4>
+									</div>
+									<div>
+										<p>
+											 የኮንደሚኒየም ግንባታ ማስጨረሻ  የ መኪና ግዥ የሚሰጥ ብድር  የቤት መኪና  የንግድ
+											መኪና  የታክሲ አገልግሎት
+										</p>
+										<a href="/project-details" className="underline mt-15">
+											<span className="text main-color sub-title">
+												ዝርዝሮችን ይመልከቱ <i className="ti-arrow-top-right"></i>
 											</span>
 										</a>
 									</div>
@@ -142,6 +176,7 @@ function Portfolio() {
 							</div>
 						</div>
 					</div>
+
 					<div className="card-item sub-bg">
 						<div className="row">
 							<div className="col-lg-5">
@@ -149,53 +184,22 @@ function Portfolio() {
 									<div>
 										<div className="mb-15">
 											<a href="/portfolio-grid" className="tag">
-												Financial
+												ከመድህን
 											</a>
 											<a href="/portfolio-grid" className="tag">
-												Literacy
+												ኢንሹራንስ
 											</a>
 										</div>
-										<h4>Financial Literacy Workshops</h4>
+										<h4> ከመድህን ወይም ኢንሹራንስ አግልግሎቶቹ የሚገኝ ጥቅም</h4>
 									</div>
 									<div>
 										<p>
-											We host regular workshops and seminars aimed at improving
-											financial literacy among our members,
-										</p>
-										<a href="/project-details" className="underline mt-15">
-											<span className="text main-color sub-title">
-												View Details <i className="ti-arrow-top-right"></i>
-											</span>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-7">
-								<div className="img">
-									<img src="/assets/imgs/works/1/3.jpg" alt="" />
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="card-item sub-bg">
-						<div className="row">
-							<div className="col-lg-5">
-								<div className="cont">
-									<div>
-										<div className="mb-15">
-											<a href="/portfolio-grid" className="tag">
-												Investment
-											</a>
-											<a href="/portfolio-grid" className="tag">
-												Projects
-											</a>
-										</div>
-										<h4>Investment Projects</h4>
-									</div>
-									<div>
-										<p>
-											Our investment initiatives have created new opportunities
-											for members, ranging from profitable
+											• የመድህን ወይም ኢንሹራንስ አገልግሎት ተጠቃሚ የሆነ ቆጣቢ አባል በሞት በሚለይበት ወቅት
+											የሞት እና አሟሟት ማረጋገጫ ማስረጃ እንደቀረበ መድህን የተገባለት ቁጠባ እጥፍ እና የቀብር
+											ስነ ስርዓት ማስፈጸሚያ ማህበሩ የቀብር ማስፈፀሚያ መኪና ገዝቶ አገልግሎት ይሰጣል:: ይህ
+											ካልሆነ ብር 2000.00 የአባሉ የመኖሪያና የቀብር መፈጸሚያ እና ማስተዛዘኛ ብር
+											3000.00 በድምሩ 5000.00 በአባሉ መኖሪያ ቤት በመገኜት ለህጋዊ ወራሾች በህብረት ስራ
+											ማህበሩ ሊቀመንበር/ሥራ አስኪያጅ/ አማካይነት ይሰጣል፡፡
 										</p>
 										<a href="/project-details" className="underline mt-15">
 											<span className="text main-color sub-title">
@@ -212,29 +216,30 @@ function Portfolio() {
 							</div>
 						</div>
 					</div>
-					{/* <div className="card-item sub-bg">
+					<div className="card-item sub-bg">
 						<div className="row">
 							<div className="col-lg-5">
 								<div className="cont">
 									<div>
 										<div className="mb-15">
 											<a href="/portfolio-grid" className="tag">
-												Figma
+												የልጆች
 											</a>
 											<a href="/portfolio-grid" className="tag">
-												Web Design
+												ቁጠባ
 											</a>
 										</div>
-										<h4>Cutter mobile app</h4>
+										<h4>የህፃናት ቁጠባ</h4>
 									</div>
 									<div>
 										<p>
-											We’re a full stack firm that can help you from strategy to
-											launch, and anywhere in between.
+											 እድሜያቸው ከ18 አመት በታች የሆኑ ህፃናት በማህበራችን ቆጣቢ መሆን ይችላሉ  ህፃናት
+											ማህበራችን ላይ ቁጠባ ሲጀምሩ መመዝገቢያ አያስፈልጋቸውም  የህፃናት ቁጠባ ህብረት ስራ እና
+											የቁጠባ ባህልን ለህፃናት ማስለመድ በመሆኑ የቁጠባ መጠኑ ከ100.00 ይጀምራል፡፡
 										</p>
 										<a href="/project-details" className="underline mt-15">
 											<span className="text main-color sub-title">
-												View Details <i className="ti-arrow-top-right"></i>
+												ዝርዝሮችን ይመልከቱ <i className="ti-arrow-top-right"></i>
 											</span>
 										</a>
 									</div>
@@ -246,15 +251,7 @@ function Portfolio() {
 								</div>
 							</div>
 						</div>
-					</div> */}
-				</div>
-			</div>
-			<div className="sec-bottom mt-100">
-				<div className="main-bg d-flex align-items-center">
-					<h6 className="fz-14 fw-400 secondary-color">
-						More than <span className="fw-600"> 100+ companies</span>
-						trusted us worldwide
-					</h6>
+					</div>
 				</div>
 			</div>
 		</section>

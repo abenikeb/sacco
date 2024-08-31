@@ -47,9 +47,9 @@ export default function Home() {
 						<Services />
 						<Team />
 						{/* <Testimonials /> */}
-						<Clients />
+						{/* <Clients /> */}
 						{/* <Blog /> */}
-						<Marq2 />
+						{/* <Marq2 /> */}
 					</main>
 					<Footer />
 				</div>

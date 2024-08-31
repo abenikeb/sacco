@@ -12,9 +12,9 @@ function Footer() {
 					</div>
 					<div className="col-lg-4">
 						<div className="column md-mb50">
-							<h6 className="sub-title mb-30">Contact</h6>
+							<h6 className="sub-title mb-30">ተገናኝ</h6>
 							<h6 className="p-color fw-400">
-								Gerji Mebrat Hayl Shew Bldg <br /> 3rd, #302
+								ገርጂ መብራት ሃይል ሸዋ ብሎጂ <br /> 3ኛ, #302
 							</h6>
 							<h6 className="mt-30 mb-15">
 								<a href="#0">bright@bright.com</a>
@@ -26,22 +26,22 @@ function Footer() {
 					</div>
 					<div className="col-lg-2">
 						<div className="column md-mb50">
-							<h6 className="sub-title mb-30">Useful Links</h6>
+							<h6 className="sub-title mb-30">ጠቃሚ አገናኞች</h6>
 							<ul className="rest fz-14 opacity-7">
 								<li className="mb-15">
-									<a href="/page-about">About us</a>
+									<a href="/page-about">ስለ እኛ</a>
 								</li>
 								<li className="mb-15">
-									<a href="/page-services">Services Offered</a>
+									<a href="/page-services">የሚቀርቡ አገልግሎቶች</a>
 								</li>
 								<li className="mb-15">
-									<a href="/">Testimonies</a>
+									<a href="/">ምስክርነቶች</a>
 								</li>
 								<li className="mb-15">
-									<a href="/page-FAQ">FAQs</a>
+									<a href="/page-FAQ">የሚጠየቁ ጥያቄዎች</a>
 								</li>
 								<li>
-									<a href="/page-contact">Contact</a>
+									<a href="/page-contact">ተገናኝ</a>
 								</li>
 							</ul>
 						</div>

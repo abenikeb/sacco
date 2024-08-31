@@ -23,20 +23,26 @@ function Intro() {
 					<div className="col-lg-6 valign secondary-color">
 						<div className="cont">
 							<h3 className="mb-30">
-								At Bright Sacco,{" "}
-								<span className="fw-200">we’re dedicated to</span> empowering
-								our members through innovative financial solutions{" "}
-								<span className="fw-200"> and community support</span>
+								ብራይት ኃ/የተወሰነ የገንዘብ ቁጠባ እና ብድር{" "}
+								<span className="fw-200">
+									መሰረታዊ ኅብረት ስራ ማኅበር በአባላት በሙሉ ፍላጎት
+								</span>{" "}
+								እና ፈቃደኝነት የኅብረት ስራ ማኅበሩን ለማ ራጀት በወጣው አዋጅ ቁጥር 985/2009 መሰረት
+								የተመሰረተ እና ለአባላት ፣{" "}
+								<span className="fw-200">
+									{" "}
+									የቁጠባ፣የብድር፣አነስተኛ ኢንሹራንስ አገለግሎት እንዲሁም የተለያዩ ስልጠናዎች ለአባላት እዲሰጥ
+									ታስቦ እየተቋቋመ ያለ ማኅበረሰብ አቀፍ ኅብረት ስራ ማኅበር ነው::{" "}
+								</span>
 							</h3>
 							<p>
-								As a forward-thinking savings and credit cooperative, we offer
-								tailored products and services designed to help you achieve your
-								financial goals with confidence and ease. Join us to experience
-								a brighter financial future together.
+								ወደፊት ማሰብ የቁጠባ እና የብድር ትብብር እንደመሆናችን መጠን የፋይናንሺያል ግቦችዎን በልበ ሙሉነት
+								እና በቀላሉ እንዲያሳኩ የተበጁ ምርቶችን እና አገልግሎቶችን እናቀርባለን። ብሩህ የወደፊት የፋይናንስ
+								ተሞክሮ ለማግኘት አብረውን ይቀላቀሉን።
 							</p>
 							<a href="/page-services" className="underline main-color mt-40">
 								<span className="text">
-									Our Services <i className="ti-arrow-top-right"></i>
+									የእኛ አገልግሎቶች <i className="ti-arrow-top-right"></i>
 								</span>
 							</a>
 						</div>

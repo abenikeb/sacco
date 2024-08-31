@@ -49,10 +49,9 @@ function Testimonials() {
 											<div className="content">
 												<div className="text">
 													<p className="fz-30">
-														I have been hiring people in this space for a number
-														of years and I have never seen this level of
-														professionalism. It really feels like you are
-														working with a team that can get the job done.
+														በዚህ ቦታ ውስጥ ሰዎችን ለብዙ አመታት እየቀጠርኩ ነው የሰራሁት እና ይህን
+														የባለሙያነት ደረጃ ከዚህ ደርጃ አላውቅም። ስራውን ሊያጠናቅቅ ከሚችል ቡድን ጋር
+														እየሰሩ እንደሆነ በእውነት ይሰማዎታል።
 													</p>
 												</div>
 												<div className="info d-flex align-items-center pt-40 mt-40 bord-thin-top">
@@ -62,11 +61,9 @@ function Testimonials() {
 														</div>
 													</div>
 													<div className="ml-20">
-														<h5 className="secondary-color">
-															Bekalu Gebremariyam
-														</h5>
+														<h5 className="secondary-color">ሃይሉ ቤክሌይ</h5>
 														<span className="sub-title main-color">
-															CEO & Co-Founder of AB7 TV
+															NIB PLC መስራች እና ዋና ስራ አስፈፃሚ
 														</span>
 													</div>
 												</div>
@@ -78,10 +75,9 @@ function Testimonials() {
 											<div className="content">
 												<div className="text">
 													<p className="fz-30">
-														I have been hiring people in this space for a number
-														of years and I have never seen this level of
-														professionalism. It really feels like you are
-														working with a team that can get the job done.
+														በዚህ ቦታ ውስጥ ሰዎችን ለብዙ አመታት እየቀጠርኩ ነው የሰራሁት እና ይህን
+														የባለሙያነት ደረጃ ከዚህ ደርጃ አላውቅም። ስራውን ሊያጠናቅቅ ከሚችል ቡድን ጋር
+														እየሰሩ እንደሆነ በእውነት ይሰማዎታል።
 													</p>
 												</div>
 												<div className="info d-flex align-items-center pt-40 mt-40 bord-thin-top">
@@ -91,9 +87,9 @@ function Testimonials() {
 														</div>
 													</div>
 													<div className="ml-20">
-														<h5 className="secondary-color">Haylu Beckley</h5>
+														<h5 className="secondary-color">ሃይሉ ቤክሌይ</h5>
 														<span className="sub-title main-color">
-															Founder & CEO of NIB PLC
+															NIB PLC መስራች እና ዋና ስራ አስፈፃሚ
 														</span>
 													</div>
 												</div>

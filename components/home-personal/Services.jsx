@@ -7,10 +7,10 @@ function Services() {
 				<div className="sec-head mb-80">
 					<div className="d-flex align-items-center">
 						<div>
-							<span className="sub-title main-color mb-5">Our Specialize</span>
+							<span className="sub-title main-color mb-5">የእኛ መገለጫ የሆኑ</span>
 							<h3 className="fw-600 fz-50 secondary-color text-u d-rotate wow">
 								<span className="rotate-text">
-									Featured <span className="fw-200">Services.</span>
+									ተልዕኳችን እና <span className="fw-200">ርዕያችን</span>
 								</span>
 							</h3>
 						</div>
@@ -18,7 +18,7 @@ function Services() {
 							<a
 								href="/page-services"
 								className="butn butn-sm butn-bord radius-30 secondary-color">
-								<span>View All</span>
+								<span>ሁሉንም ይመልከቱ</span>
 							</a>
 							<span className="icon ti-arrow-top-right"></span>
 						</div>
@@ -26,19 +26,18 @@ function Services() {
 				</div>
 				<div className="row">
 					<div className="col-lg-4">
-						<div className="item sub-bg md-mb30">
+						<div className="item sub-bg md-mb30 fixed-height-card">
 							<div className="icon-img-60 opacity-5 mb-40">
 								<img src="/assets/imgs/serv-icons/3.png" alt="" />
 							</div>
-							<h5>Investment Opportunities</h5>
+							<h5>ርዕያችን</h5>
 							<div className="text mt-40">
 								<div className="mb-10">
-									<span className="tag">Investment</span>
-									<span className="tag">Financial Planning</span>
+									<span className="tag">መካከለኛ ገቢ</span>
+									<span className="tag">ስራ ፈጣሪ</span>
 								</div>
-								<p>
-									We always ensure provide Various types of loans, such as
-									personal loans, business loans, and education loans.
+								<p className="truncate-text">
+									በ2030 ዓ.ም ሁሉም አባላት መካከለኛ ገቢ ያላቸው እና ስራ ፈጣሪ ሁነው ማየት፡፡
 								</p>
 							</div>
 							<a href="/page-services-details" className="mt-40">
@@ -47,18 +46,21 @@ function Services() {
 						</div>
 					</div>
 					<div className="col-lg-4">
-						<div className="item sub-bg md-mb30">
+						<div className="item sub-bg md-mb30 fixed-height-card">
 							<div className="icon-img-60 opacity-5 mb-40">
 								<img src="/assets/imgs/serv-icons/4.png" alt="" />
 							</div>
-							<h5>Deposit and Withdrawal Services:</h5>
+							<h5>ተልዕኳችን</h5>
 							<div className="text mt-40">
 								<div className="mb-10">
-									<span className="tag">Investment</span>
-									<span className="tag">Financial Planning</span>
+									<span className="tag">ዘላቂነት ያለው </span>
+									<span className="tag">ሁሉን አቀፍ የፋይናንስ ተቋም መገንባት</span>
 								</div>
-								<p>
-									Convenient methods for members to deposit or withdraw funds.
+								<p className="truncate-text">
+									በሰለጠነ እና በስነምግባር በታነፀ የሰው ሃይል እና በዘመናዊ ቴክኖሎጂ በመታገዝ ለህብረተሰቡ
+									በፋይናንስ አጠቃቀም ተከታታይ ስልጠና በመስጠት ዘላቂነት ያለው ሁሉን አቀፍ የፋይናንስ ተቋም
+									በመገንባት ምቹ፣ ተደራሽ እና ቀልጣፋ የፋይናንስ አገልግሎት በመስጠት የአባላትን ፍላጎት ማሟላት
+									ነው፡፡
 								</p>
 							</div>
 							<a href="/page-services-details" className="mt-40">
@@ -67,19 +69,22 @@ function Services() {
 						</div>
 					</div>
 					<div className="col-lg-4">
-						<div className="item sub-bg">
+						<div className="item sub-bg fixed-height-card">
 							<div className="icon-img-60 opacity-5 mb-40">
 								<img src="/assets/imgs/serv-icons/5.png" alt="" />
 							</div>
-							<h5>SEO / Marketing</h5>
+							<h5>ዓላማዎቻችን</h5>
 							<div className="text mt-40">
 								<div className="mb-10">
-									<span className="tag">Member</span>
-									<span className="tag">Benefits</span>
+									<span className="tag">የፋይናንስ አጠቃቀም ማሻሻል</span>
+									<span className="tag">የተለያዩ የቁጠባ አገልግሎቶች ማስፋፋት</span>
 								</div>
-								<p>
-									Access to exclusive discounts, financial literacy programs,
-									and community support initiatives.
+								<p className="truncate-text">
+									የፋይናንስ ትምህርትና ስልጠና በመስጠት የፋይናንስ አጠቃቀም ንቃተ ህሊና በማሻሻል አባላትን በስፋት
+									ማፍራት፣ የአባላትን ፍላጎት መሰረት ያደረገ የተለያዩ የቁጠባ አገልግሎቶች በማስፋፋት ቁጠባን
+									በስፋት ማሰባሰብ፣ የአባላትን እና ደንበኞችን ፍላጎት መሰረት ያደረገ የተለያዩ የብድር
+									አገልግሎቶችን በማስፋፋት የብድር አገልግሎትን በብዛት፣ በጥራት እና በተመጣጣኝ ዋጋ ለአባላት
+									በማቅረብ የኢንቨስትመንት አቅም ለማሳደግ፣
 								</p>
 							</div>
 							<a href="/page-services-details" className="mt-40">
